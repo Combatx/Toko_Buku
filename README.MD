@@ -34,6 +34,12 @@
 
 -seting database di folder app/config/database.json
 
+- migration database dengan 
+### `npx sequelize-cli db:migrate`
+
+- jalankan peritah seeder untuk mengisi data 
+### npx sequelize-cli db:seed:all
+
 - jalankan aplikasi dengan
 
 ### `npm run dev`
